@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=Manrope:wght@400;500;600;700&display=swap");
+
+/* ===== BASE ===== */
+html,
+body {
+  background-color: #050505;
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+
+/* ===== FONTS ===== */
+.font-outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+/* ===== BACKGROUNDS ===== */
+.bg-void {
+  background-color: #050505;
+}
+.bg-paper {
+  background-color: #0a0a0a;
+}
+.bg-subtle {
+  background-color: #121212;
+}
+
+/* ===== TEXT ===== */
+.text-gold {
+  color: #ffd700;
+}
+
+/* ===== GRADIENTS ===== */
+.gradient-gold {
+  background: linear-gradient(90deg, #ffd700, #b39700);
+}
+
+/* ===== CONTAINER (Emergent style) ===== */
+.container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===== GLOW & HOVER EFFECTS ===== */
+.button-hover-glow {
+  transition: all 0.3s ease;
+}
+.button-hover-glow:hover {
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.45);
+  transform: translateY(-1px) scale(1.03);
+}
+
+.card-hover-border {
+  transition: all 0.3s ease;
+}
+.card-hover-border:hover {
+  border-color: rgba(255, 215, 0, 0.4);
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.12);
+}
+
+/* ===== GLASS EFFECT ===== */
+.glass {
+  backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
