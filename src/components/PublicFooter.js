@@ -40,12 +40,12 @@ function PublicFooter() {
           <ul className="space-y-3 text-white/70">
             <li className="flex items-center gap-2">
               <Phone size={16} className="text-gold" />
-              <a href="tel:+919876543210">+91 98765 43210</a>
+              <a href="tel:+1 (505) 456-0334">+15054560334</a>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} className="text-gold" />
               <a href="mailto:support@ironwalletinvestment.com">
-                support@ironwalletinvestment.com
+                info@ironwalletinvestments.com
               </a>
             </li>
           </ul>
