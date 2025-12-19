@@ -40,7 +40,7 @@ function PublicFooter() {
           <ul className="space-y-3 text-white/70">
             <li className="flex items-center gap-2">
               <Phone size={16} className="text-gold" />
-              <a href="tel:+1 (505) 456-0334">+15054560334</a>
+              <a href="tel:+15054560334">+1 (505) 456-0334</a>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} className="text-gold" />
